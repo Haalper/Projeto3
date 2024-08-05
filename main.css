@@ -1,0 +1,55 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #3c8bdf;
+}
+
+.nav .nav-link.active {
+    background-color: #fff;
+    color: #3c8bdf;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-tittle {
+    font-family: Pacifico, cursive;
+}
+
+.section-tittle span,
+.text-colored {
+    color: #e15f41;
+}
+
+#sobre-nos {
+    background-color: #ffeae6;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
